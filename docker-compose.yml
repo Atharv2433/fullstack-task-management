@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    image: atharv2905/backend:latest
+    build:
+      context: ./backend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./backend/database.sqlite:/app/database.sqlite
+  frontend:
+    image: atharv2905/frontend:latest
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
