@@ -71,3 +71,6 @@ Thumbs.db
 # Build directories
 build/
 dist/
+
+# Project specific
+TODO.md
