@@ -1,0 +1,27 @@
+[2024-01-15 10:00:00] INFO: React application initialized
+[2024-01-15 10:00:01] INFO: AuthContext loaded, checking for stored token
+[2024-01-15 10:00:02] INFO: No stored token found, user not authenticated
+[2024-01-15 10:00:03] INFO: Rendering Login component
+[2024-01-15 10:05:10] INFO: User login attempt: johndoe@example.com
+[2024-01-15 10:05:12] INFO: API call to /api/auth/login successful
+[2024-01-15 10:05:13] INFO: Token stored in localStorage
+[2024-01-15 10:05:14] INFO: Redirecting to Dashboard
+[2024-01-15 10:05:15] INFO: Fetching user tasks from /api/tasks
+[2024-01-15 10:05:16] INFO: Tasks loaded successfully: 3 tasks found
+[2024-01-15 10:10:20] INFO: Task status updated: Complete project setup -> in_progress
+[2024-01-15 10:10:21] INFO: API call to PUT /api/tasks/1 successful
+[2024-01-15 10:15:30] INFO: New task form submitted
+[2024-01-15 10:15:31] INFO: API call to POST /api/tasks successful
+[2024-01-15 10:15:32] INFO: Task added to list: "Review code changes"
+[2024-01-15 10:20:00] INFO: Admin panel accessed
+[2024-01-15 10:20:01] INFO: Fetching users from /api/admin/users
+[2024-01-15 10:20:02] INFO: Users loaded: 5 users found
+[2024-01-15 10:25:10] INFO: News articles fetched from /api/admin/news
+[2024-01-15 10:25:11] INFO: News loaded: 2 articles found
+[2024-01-15 10:30:00] WARN: API call failed: GET /api/tasks - Network error
+[2024-01-15 10:30:01] INFO: Retrying API call in 3 seconds
+[2024-01-15 10:30:04] INFO: API call retry successful
+[2024-01-15 10:35:00] INFO: User logout initiated
+[2024-01-15 10:35:01] INFO: Token removed from localStorage
+[2024-01-15 10:35:02] INFO: Redirecting to Login page
+[2024-01-15 11:00:00] INFO: Application cleanup completed
