@@ -1,0 +1,12 @@
+2024-01-15 10:00:00 INFO Server started on port 3000
+2024-01-15 10:00:05 INFO Database connected successfully
+2024-01-15 10:05:12 INFO User registered: johndoe@example.com
+2024-01-15 10:05:15 INFO User login successful: johndoe@example.com
+2024-01-15 10:05:20 INFO Task created: Complete project setup (ID: 1)
+2024-01-15 10:10:30 INFO Task updated: Complete project setup (ID: 1) - Status: in_progress
+2024-01-15 10:15:45 INFO Task completed: Complete project setup (ID: 1)
+2024-01-15 10:20:00 INFO Admin user accessed user management
+2024-01-15 10:25:10 INFO News article created: Welcome to our platform
+2024-01-15 10:30:00 WARN Rate limit exceeded for IP 192.168.1.100
+2024-01-15 10:35:22 INFO User logout: johndoe@example.com
+2024-01-15 11:00:00 INFO Daily maintenance completed
